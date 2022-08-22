@@ -1,0 +1,33 @@
+div#header-center{
+  margin: 0 auto; 
+  width: 1080px;
+}
+
+#header-search h1{
+  width: 160px;
+  height: 60px;
+  display: inline-block;
+  background-image: url(./프레시안.png);
+  background-size: cover;
+  background-position: -4px;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+
+#header-search h2{
+  display: none;
+}
+
+#header-search fieldset{
+  width:520px;
+  display: inline-block;
+}
+
+.blind{
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
