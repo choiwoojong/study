@@ -1,0 +1,45 @@
+#header-center{
+  margin: 0 auto;
+  width: 1080px;
+}
+#header-search a{
+  text-decoration: none;
+}
+
+#header-search a{
+  display: inline-block;
+  background-image: url(./Daum\ main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 94px;
+}
+
+#header-search h1{
+  display: none;
+}
+
+#header-search fieldset{
+  width: 671.33px;
+  height: 62,93px;
+  padding: 5.6px 12px 10px 12px;
+  border: 2px;
+  margin: 2px;
+  display: inline-block;
+}
+
+#header-search fieldset input{
+  width: 403.33px;
+  height: 21.33px;
+  display: inline-block;
+  padding: 0;
+  outline: 0;
+}
+
+.move button{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 0 auto;
+  height: 0 auto;
+}
