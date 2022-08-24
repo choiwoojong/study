@@ -12,22 +12,27 @@ div#header-center{
 }
 
 #header-search h1{
-  width: 160px;
-  height: 51px;
+  width: 443px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  border: none;
   display: inline-block;
-  background-image: url(./프레시안.png);
-  background-size: cover;
-  background-position: -4px;
-  background-repeat: no-repeat;
-  padding-bottom: 20px;
+  background-image: url(./sp_search.png);
+  background-position: 914px 496px;
+  vertical-align: top;
 }
 
-#header-search h1{
-  display: none;
+#header-search span{
+  text-indent: 100%;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
 }
 
 #header-search h2{
-  display: none;
+  text-indent: 100%;
+  overflow: hidden;
 }
 
 #header-search fieldset{
@@ -39,10 +44,23 @@ div#header-center{
   display: inline-block;
 }
 
+#header-search fieldset button{
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 0;
+  background: #03cf5d;
+  background-position: 1776px 957px;
+  background-image: url(./sp_search.png);
+}
+
 #header-search fieldset input{
+  width: 444px;
+  height: 24px;
   border: none;
   padding: 0;
   outline: 0;
+  vertical-align: top;
 }
 
 .blind{

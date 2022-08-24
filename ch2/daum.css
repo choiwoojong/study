@@ -1,6 +1,7 @@
 #header-center{
   margin: 0 auto;
   width: 1080px;
+  cursor: pointer;
 }
 #header-search a{
   text-decoration: none;
@@ -21,19 +22,28 @@
 
 #header-search fieldset{
   width: 671.33px;
-  height: 62,93px;
+  height: 62.93px;
   padding: 5.6px 12px 10px 12px;
   border: 2px;
   margin: 2px;
+  border: 2px solid rgb(46, 6, 248);
   display: inline-block;
 }
 
 #header-search fieldset input{
-  width: 403.33px;
+  width: 422.33px;
   height: 21.33px;
   display: inline-block;
+  border: none;
   padding: 0;
   outline: 0;
+}
+
+.main ul{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  color: rgb(0, 0, 238);
+  text-align: left;
 }
 
 .move button{
