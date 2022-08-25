@@ -43,6 +43,7 @@ div#header-center{
   border: 2px solid #03cf5d;
   display: inline-block;
   vertical-align: middle;
+  position: relative;
 }
 
 #header-search fieldset button{
@@ -53,6 +54,9 @@ div#header-center{
   background: #03cf5d;
   background-position: 1776px 957px;
   background-image: url(./sp_search.png);
+  position: absolute;
+  right: -3;
+  top: -2;
 }
 
 #header-search fieldset input{

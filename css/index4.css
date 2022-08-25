@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(94, 204, 255);
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+}
+
+#version1{
+  height: 60px;
+  font-size: 60px;
+  margin: 0;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  display: inline-block;
+}
+
+.passion{
+  color: red;
+}
+
+#version2{
+  font-size: 30px;
+  position: relative;
+  left: 6px;
+  top: -120px;
+  display: inline-block;
+}
+
+#contact h3{
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 400px;
+}
+
+#contact h4{
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: -15px;
+  display: inline-block;
+}
