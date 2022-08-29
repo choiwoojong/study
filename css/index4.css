@@ -4,6 +4,22 @@ body{
   color: white;
 }
 
+.nav ul{
+  margin: 0%;
+  padding: 0;
+  cursor: pointer;
+  display: inline;
+  position: absolute;
+  right:0;
+  top:0;
+  font-size: 30px;
+  list-style: none;
+}
+
+nav span{
+  text-decoration: none;
+}
+
 #version1{
   height: 60px;
   font-size: 60px;
@@ -37,4 +53,17 @@ body{
   margin-left: 100px;
   margin-top: -15px;
   display: inline-block;
+}
+
+#rocket{
+  float: right;
+  width: 154;
+  height: 154;
+  margin-right: 100px;
+  margin-top: -15px;
+
+}
+
+.skill-title span{
+  font-size: 100px;
 }
