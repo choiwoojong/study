@@ -4,66 +4,20 @@ body{
   color: white;
 }
 
-.nav ul{
-  margin: 0%;
-  padding: 0;
-  cursor: pointer;
-  display: inline;
-  position: absolute;
-  right:0;
-  top:0;
-  font-size: 30px;
-  list-style: none;
+.container{
+  width: 90%;
+  margin: 0 auto;
 }
 
-nav span{
-  text-decoration: none;
+.header{
+  font-size: 2em;
+  text-align: right;
 }
 
-#version1{
-  height: 60px;
-  font-size: 60px;
-  margin: 0;
-  position: absolute;
-  left: 100px;
-  top: 100px;
-  display: inline-block;
+.h2{
+  font-size: 5em;
+  text-align: left;
 }
-
 .passion{
-  color: red;
-}
-
-#version2{
-  font-size: 30px;
-  position: relative;
-  left: 6px;
-  top: -120px;
-  display: inline-block;
-}
-
-#contact h3{
-  font-size: 30px;
-  margin-left: 100px;
-  margin-top: 400px;
-}
-
-#contact h4{
-  font-size: 20px;
-  margin-left: 100px;
-  margin-top: -15px;
-  display: inline-block;
-}
-
-#rocket{
-  float: right;
-  width: 154;
-  height: 154;
-  margin-right: 100px;
-  margin-top: -15px;
-
-}
-
-.skill-title span{
-  font-size: 100px;
+  text-decoration: red;
 }

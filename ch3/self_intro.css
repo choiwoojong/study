@@ -1,0 +1,83 @@
+.total{
+  width: 98%;
+  background-color: aqua;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+  position: relative;
+}
+
+.header-select{
+  width: 100%;
+  text-align:end;
+  margin-bottom: 100px;
+}
+
+.header{
+  margin-bottom: 300px;
+}
+
+.header h2{
+  width: 90%;
+  height: 70%;
+  font-size: 6rem;
+  display: flex;
+  text-align: left;
+  display: block;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.passion{
+  color: red;
+}
+
+
+.header h3{
+  font-size: 2rem;
+  margin-left: 60px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-bottom: 0;
+  display: inline-block;
+}
+
+.contact-line{
+  padding-bottom: 50px;
+}
+
+#s_left{
+  font-size: 5rem;
+  color: blue;
+  width: 200px;
+  height: 50%;
+  float: left;
+  vertical-align: middle;
+}
+
+#contents{
+  width: 700px;
+  height: 30%;
+  margin: 0 auto;
+  float: inline-end;
+}
+
+.main{
+  font-size: 3rem;
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  margin-left: 200;
+  margin-top: 150;
+}
+
+.skill_explain{
+  margin-top: 200px;
+}
+
+.footer{
+  text-align: center;
+  display: block;
+  display: ;
+}
